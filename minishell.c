@@ -7,12 +7,7 @@
 #define RESET_TEXT "\x1B[0m"
 #define RED_TEXT "\x1B[31m"
 #define GREEN_TEXT "\x1B[32m"
-/*
-Para ejecutar un programa desde el minishell utilice run <programa> <argumentos>
 
-This project is a simplistic implementation of a Linux console. It provides basic functionality such as executing commands, changing directories, listing files, and running programs. The project utilizes C programming language and various system libraries.
-
-*/
 typedef struct
 {
     char *name;
